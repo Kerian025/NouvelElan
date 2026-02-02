@@ -1,99 +1,100 @@
 <!DOCTYPE html>
-</div>
-<div class="carte act-b">
-<h3>Step</h3>
-<p>Activité dynamique adaptée permettant de travailler l'endurance, la coordination et le renforcement musculaire en douceur.</p>
-</div>
-<div class="carte act-c">
-<h3>Sport urbain</h3>
-<p>Activités physiques en extérieur utilisant l'environnement urbain pour renforcer le corps, améliorer l'équilibre et favoriser le lien social.</p>
-</div>
-<div class="carte act-d">
-<h3>Aquagym</h3>
-<p>Séances en piscine, idéales pour renforcer les muscles en limitant les impacts et soulager les articulations.</p>
-</div>
-<div class="carte act-e">
-<h3>Yoga</h3>
-<p>Pratique douce axée sur la respiration, la mobilité et la détente, favorisant le bien-être physique et mental.</p>
-</div>
-</div>
-</section>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nouvel Élan – Activité Physique Adaptée</title>
+<style>
+:root {
+--vert: #4CAF8F;
+--bleu: #3A6EA5;
+--gris-clair: #f5f7f8;
+--texte: #333;
+}
 
 
-<section id="planning">
-<h2>Planning hebdomadaire</h2>
-<table>
-<thead>
-<tr>
-<th>Jour</th>
-<th>Activité</th>
-<th>Horaire</th>
-<th>Lieu</th>
-<th>Inscription</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Lundi</td>
-<td>Step</td>
-<td>14h – 15h</td>
-<td><a href="https://www.google.com/maps/search/?api=1&query=Gymnase+de+Saint+Mandé" target="_blank">Gymnase de Saint‑Mandé</a></td>
-<td><a href="#inscription">S'inscrire</a></td>
-</tr>
-<tr>
-<td>Mardi</td>
-<td>Marche nordique</td>
-<td>11h – 12h</td>
-<td><a href="https://www.google.com/maps/search/?api=1&query=Bois+de+Vincennes" target="_blank">Bois de Vincennes</a></td>
-<td><a href="#inscription">S'inscrire</a></td>
-</tr>
-<tr>
-<td>Mercredi</td>
-<td>Aquagym</td>
-<td>10h – 11h</td>
-<td><a href="https://www.google.com/maps/search/?api=1&query=Piscine+de+Vitry-sur-Seine" target="_blank">Piscine de Vitry‑sur‑Seine</a></td>
-<td><a href="#inscription">S'inscrire</a></td>
-</tr>
-<tr>
-<td>Jeudi</td>
-<td>Sport urbain</td>
-<td>13h – 14h</td>
-<td><a href="https://www.google.com/maps/search/?api=1&query=Jardin+des+Halles+Paris" target="_blank">Jardin des Halles</a></td>
-<td><a href="#inscription">S'inscrire</a></td>
-</tr>
-<tr>
-<td>Vendredi</td>
-<td>Yoga</td>
-<td>17h – 18h</td>
-<td><a href="https://www.google.com/maps/search/?api=1&query=Parc+de+Bercy+Paris" target="_blank">Parc de Bercy</a></td>
-<td><a href="#inscription">S'inscrire</a></td>
-</tr>
-</tbody>
-</table>
-</section>
+* {
+box-sizing: border-box;
+}
 
 
-<section id="inscription" class="inscription">
-<h2>Inscription</h2>
-<p>
-Pour participer aux activités, merci de vous inscrire via le formulaire ci-dessous.
-</p>
-<!-- Remplacer le lien par votre Google Form -->
-<a href="https://forms.gle/XXXXXXXXXX" target="_blank" class="btn">Accéder au formulaire d'inscription</a>
-</section>
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+color: var(--texte);
+line-height: 1.6;
+background-color: #fff;
+}
 
 
-<footer>
-<p>
-© Nouvel Élan – Association d'activité physique adaptée<br />
-📍 Siège social : 5bis Rue Fays, 94160 Saint-Mandé<br /><br />
-📧 Email : Nouvelélan@gmail.com<br />
-📞 Téléphone : 06.86.10.05.53<br />
-📸 Instagram : @2Nouveaulibre<br />
-🎵 TikTok : Nouvel élan
-</p>
-</footer>
+header {
+background: linear-gradient(135deg, var(--vert), var(--bleu));
+color: white;
+padding: 3rem 1rem 2rem;
+text-align: center;
+position: relative;
+}
+}
 
 
-</body>
+header img {
+width: 100%;
+max-width: 600px;
+height: auto;
+margin: 0 auto 1.5rem;
+display: block;
+}
+}
+
+
+header h1 {
+margin: 0.5rem 0;
+font-size: 2.2rem;
+}
+
+
+header p {
+max-width: 700px;
+margin: 0 auto 1.5rem;
+font-size: 1.1rem;
+}
+
+
+.btn {
+display: inline-block;
+background-color: white;
+color: var(--bleu);
+padding: 0.7rem 1.2rem;
+border-radius: 6px;
+text-decoration: none;
+font-weight: bold;
+}
+
+
+section {
+padding: 3rem 1rem;
+max-width: 1000px;
+margin: auto;
+}
+
+
+section:nth-child(even) {
+background-color: var(--gris-clair);
+}
+
+
+h2 {
+text-align: center;
+color: var(--bleu);
+margin-bottom: 2rem;
+}
+
+
+.activites {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+gap: 1.5rem;
+justify-items: center;
+}
+}
 </html>
